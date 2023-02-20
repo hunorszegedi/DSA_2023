@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Lenovo/Desktop/Sapi/II. FELEV/Adatszerkezetek I. - DSA/lab_1/lab1_gyakorlas/cmake-build-debug"
+			"value" : "c:/Users/Lenovo/Desktop/Sapi/II. FELEV/Adatszerkezetek I. - DSA/DSA_gitHub/DSA_2023/lab2/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Lenovo/Desktop/Sapi/II. FELEV/Adatszerkezetek I. - DSA/lab_1/lab1_gyakorlas"
+			"value" : "C:/Users/Lenovo/Desktop/Sapi/II. FELEV/Adatszerkezetek I. - DSA/DSA_gitHub/DSA_2023/lab2"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1095,7 +1095,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Lenovo/Desktop/Sapi/II. FELEV/Adatszerkezetek I. - DSA/lab_1/lab1_gyakorlas/cmake-build-debug"
+			"value" : "C:/Users/Lenovo/Desktop/Sapi/II. FELEV/Adatszerkezetek I. - DSA/DSA_gitHub/DSA_2023/lab2/cmake-build-debug"
 		},
 		{
 			"name" : "lab1_gyakorlas_IS_TOP_LEVEL",
@@ -1119,7 +1119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Lenovo/Desktop/Sapi/II. FELEV/Adatszerkezetek I. - DSA/lab_1/lab1_gyakorlas"
+			"value" : "C:/Users/Lenovo/Desktop/Sapi/II. FELEV/Adatszerkezetek I. - DSA/DSA_gitHub/DSA_2023/lab2"
 		}
 	],
 	"kind" : "cache",

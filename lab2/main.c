@@ -24,30 +24,44 @@ int main() {
 //    printf("\nThe average is: %.2f", avg(number1, number2));
 //    printf("\nThe maximum is: %.2f", maximum(number1, number2, number3));
 
-    int n, *pArray;
-    pArray = allocateMemoryForArray1(n);
-    allocateMemoryForArray2(n, &pArray);
-    readArray(&n, &pArray, "be.txt");
-    printArray(n, pArray, "CON");
-    deallocateMemoryForArray(&pArray);
+//    int n, *pArray;
+//    pArray = allocateMemoryForArray1(n);
+//    allocateMemoryForArray2(n, &pArray);
+//    readArray(&n, &pArray, "be.txt");
+//    printArray(n, pArray, "CON");
+//    deallocateMemoryForArray(&pArray);
 
-    int m, *numbers, start, end;
-    printf("Number of generated items:");
-    scanf("%i", &m);
-    printf("Start:");
-    scanf("%i", &start);
-    printf("End:");
-    scanf("%i", &end);
-    if(start > end){
-        int aux = start;
-        start = end;
-        end = aux;
-    }
-    allocateMemoryForArray2(m, &numbers);
-    fillWithRandomNumbers(m, numbers, start, end);
-    printArray(m, numbers, "CON");
-    printArrayInReverseOrder(m, numbers, "CON");
-    deallocateMemoryForArray(&numbers);
+//    int m, *numbers, start, end;
+//    printf("Number of generated items:");
+//    scanf("%i", &m);
+//    printf("Start:");
+//    scanf("%i", &start);
+//    printf("End:");
+//    scanf("%i", &end);
+//    if(start > end){
+//        int aux = start;
+//        start = end;
+//        end = aux;
+//    }
+//    allocateMemoryForArray2(m, &numbers);
+//    fillWithRandomNumbers(m, numbers, start, end);
+//    printArray(m, numbers, "CON");
+////    printArrayInReverseOrder(m, numbers, "CON");
+//
+//    int count = numberOfEvenNumbers(m, numbers);
+//    printf("Number of even number: %i", count);
+//
+//    int countSum = sumOfPositiveNumbers(m, numbers);
+//    printf("\nSum of positive numbers: %i", countSum);
+//
+//    deallocateMemoryForArray(&numbers);
 
+    int rows, cols, **matrix;
+    printf("Number of rows:");
+    scanf("%i", &rows);
+    printf("Number of columns:");
+    scanf("%i", &cols);
+//    allocateMemoryForMatrix2(rows, cols, &matrix);
+    readMatrix(&rows, &cols, &matrix, "beMatrix.txt");
     return 0;
 }
