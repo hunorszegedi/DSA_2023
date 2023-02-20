@@ -1,0 +1,25 @@
+# ninja log v5
+2	118	6984547135398807	CMakeFiles/lab1_gyakorlas.dir/sources/functions.c.obj	ca252534bdeed880
+9	106	6984547135274444	CMakeFiles/lab1_gyakorlas.dir/main.c.obj	98c8a0e00a1eccd1
+118	244	6984547136588410	lab1_gyakorlas.exe	e1193536ca779a16
+10	114	6984558406374821	CMakeFiles/lab1_gyakorlas.dir/main.c.obj	98c8a0e00a1eccd1
+3	126	6984558406496892	CMakeFiles/lab1_gyakorlas.dir/sources/functions.c.obj	ca252534bdeed880
+10	97	6984558724866056	CMakeFiles/lab1_gyakorlas.dir/main.c.obj	98c8a0e00a1eccd1
+3	103	6984558724916060	CMakeFiles/lab1_gyakorlas.dir/sources/functions.c.obj	ca252534bdeed880
+103	221	6984558726060994	lab1_gyakorlas.exe	e1193536ca779a16
+13	244	6985111816796114	CMakeFiles/lab1_gyakorlas.dir/main.c.obj	98c8a0e00a1eccd1
+4	246	6985111816806213	CMakeFiles/lab1_gyakorlas.dir/sources/functions.c.obj	ca252534bdeed880
+246	577	6985111820049905	lab1_gyakorlas.exe	e1193536ca779a16
+3	110	6985111944061409	CMakeFiles/lab1_gyakorlas.dir/main.c.obj	98c8a0e00a1eccd1
+111	245	6985111945355353	lab1_gyakorlas.exe	e1193536ca779a16
+4	116	6985113293498695	CMakeFiles/lab1_gyakorlas.dir/main.c.obj	98c8a0e00a1eccd1
+12	118	6985113293518689	CMakeFiles/lab1_gyakorlas.dir/sources/functions.c.obj	ca252534bdeed880
+118	257	6985113294854617	lab1_gyakorlas.exe	e1193536ca779a16
+4	97	6985113430978163	CMakeFiles/lab1_gyakorlas.dir/main.c.obj	98c8a0e00a1eccd1
+98	218	6985113432128156	lab1_gyakorlas.exe	e1193536ca779a16
+10	110	6985118365783452	CMakeFiles/lab1_gyakorlas.dir/main.c.obj	98c8a0e00a1eccd1
+3	137	6985118366046788	CMakeFiles/lab1_gyakorlas.dir/sources/functions.c.obj	ca252534bdeed880
+137	278	6985118367414119	lab1_gyakorlas.exe	e1193536ca779a16
+23	215	6985120377959680	CMakeFiles/lab1_gyakorlas.dir/main.c.obj	98c8a0e00a1eccd1
+8	234	6985120378168504	CMakeFiles/lab1_gyakorlas.dir/sources/functions.c.obj	ca252534bdeed880
+235	529	6985120380926020	lab1_gyakorlas.exe	e1193536ca779a16
