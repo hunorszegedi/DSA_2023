@@ -46,7 +46,7 @@ int main() {
 //    allocateMemoryForArray2(m, &numbers);
 //    fillWithRandomNumbers(m, numbers, start, end);
 //    printArray(m, numbers, "CON");
-////    printArrayInReverseOrder(m, numbers, "CON");
+//    printArrayInReverseOrder(m, numbers, "CON");
 //
 //    int count = numberOfEvenNumbers(m, numbers);
 //    printf("Number of even number: %i", count);
@@ -56,12 +56,31 @@ int main() {
 //
 //    deallocateMemoryForArray(&numbers);
 
-    int rows, cols, **matrix;
-    printf("Number of rows:");
-    scanf("%i", &rows);
-    printf("Number of columns:");
-    scanf("%i", &cols);
-//    allocateMemoryForMatrix2(rows, cols, &matrix);
-    readMatrix(&rows, &cols, &matrix, "beMatrix.txt");
+    //MATRIXOK
+    int rows, columns, **pMatrix = NULL;
+//    printf("rows:");
+//    scanf("%i", &rows);
+//    printf("columns:");
+//    scanf("%i", &columns);
+//    pMatrix = allocateMemoryForMatrix1(rows, columns);
+//    allocateMemoryForMatrix2(rows, columns, &pMatrix); //matrix cim szerint
+    readMatrix(&rows, &columns, &pMatrix, "beMatrix.txt");
+    printMatrix(rows, columns, pMatrix, "CON");
+
+    int givenRow;
+    printf("Given Row:");
+    scanf("%i", &givenRow);
+    //check given row-ra, ami letezik
+    if (givenRow >= 0 && givenRow < rows) {
+        printf("The minimum of %i is: %i\n", givenRow, minimumValueOfRow(columns, pMatrix[givenRow]));
+    } else printf(INVALID_INDEX_ERROR_MESSAGE);
+
+    printf("Minimums of rows: ");
+    printArray(rows, rowMinimums(rows, columns, pMatrix), "CON");
+    printf("The global minimum of the matrix is %i\n", minimumValueOfMatrix(rows, columns, pMatrix));
+    printf("The average of all values is %.2f\n", averageOfMatrixElements(rows, columns, pMatrix));
+
+    deallocateMatrix(rows, &pMatrix); //matrix cim szerint
+    if (!pMatrix) { printf("Matrix is NULL"); }
     return 0;
 }
