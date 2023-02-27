@@ -59,4 +59,7 @@ int minimumValueOfMatrix(int rows, int columns, int **pMatrix);
 
 float averageOfMatrixElements(int rows, int columns, int **pMatrix);
 
+
+void parosSzamokNullaraAllitasa(int rowsTest, int columnsTest, int **pMatrixTest);
+
 #endif //LAB1_GYAKORLAS_FUNCTIONS_H

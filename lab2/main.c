@@ -82,5 +82,13 @@ int main() {
 
     deallocateMatrix(rows, &pMatrix); //matrix cim szerint
     if (!pMatrix) { printf("Matrix is NULL"); }
+
+    //TEST
+    printf("\n\n");
+    int rowsTest, columnsTest, **pMatrixTest = NULL;
+    readMatrix(&rowsTest, &columnsTest, &pMatrixTest, "beTest.txt");
+    printMatrix(rowsTest, columnsTest, pMatrixTest, "CON");
+    parosSzamokNullaraAllitasa(rowsTest, columnsTest, pMatrixTest);
+    printMatrix(rowsTest, columnsTest, pMatrixTest, "kiTest.txt");
     return 0;
 }

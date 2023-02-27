@@ -369,6 +369,20 @@ float averageOfMatrixElements(int rows, int columns, int **pMatrix) {
     return avg / (rows * columns);
 }
 
+void parosSzamokNullaraAllitasa(int rowsTest, int columnsTest, int **pMatrixTest) {
+    if (rowsTest * columnsTest == 0) {
+        printf(DIVISION_BY_0_ERROR_MESSAGE);
+    }
+    for (int i = 0; i < rowsTest ; ++i) {
+        for (int j = 0; j < columnsTest ; ++j) {
+            if(!(pMatrixTest[i][j] % 2)){
+                pMatrixTest[i][j] = 0;
+            }
+        }
+    }
+
+}
+
 
 
 
