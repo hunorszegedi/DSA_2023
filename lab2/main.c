@@ -1,6 +1,5 @@
 #include "functions.h"
 
-
 int main() {
 
 // 1
@@ -64,31 +63,34 @@ int main() {
 //    scanf("%i", &columns);
 //    pMatrix = allocateMemoryForMatrix1(rows, columns);
 //    allocateMemoryForMatrix2(rows, columns, &pMatrix); //matrix cim szerint
-    readMatrix(&rows, &columns, &pMatrix, "beMatrix.txt");
-    printMatrix(rows, columns, pMatrix, "CON");
+//    readMatrix(&rows, &columns, &pMatrix, "beMatrix.txt");
+//    printMatrix(rows, columns, pMatrix, "CON");
+//
+//    int givenRow;
+//    printf("Given Row:");
+//    scanf("%i", &givenRow);
+//    //check given row-ra, ami letezik
+//    if (givenRow >= 0 && givenRow < rows) {
+//        printf("The minimum of %i is: %i\n", givenRow, minimumValueOfRow(columns, pMatrix[givenRow]));
+//    } else printf(INVALID_INDEX_ERROR_MESSAGE);
+//
+//    printf("Minimums of rows: ");
+//    printArray(rows, rowMinimums(rows, columns, pMatrix), "CON");
+//    printf("The global minimum of the matrix is %i\n", minimumValueOfMatrix(rows, columns, pMatrix));
+//    printf("The average of all values is %.2f\n", averageOfMatrixElements(rows, columns, pMatrix));
+//
+//    deallocateMatrix(rows, &pMatrix); //matrix cim szerint
+//    if (!pMatrix) { printf("Matrix is NULL"); }
+//
+//    //TEST
+//    printf("\n\n");
+//    int rowsTest, columnsTest, **pMatrixTest = NULL;
+//    readMatrix(&rowsTest, &columnsTest, &pMatrixTest, "beTest.txt");
+//    printMatrix(rowsTest, columnsTest, pMatrixTest, "CON");
+//    parosSzamokNullaraAllitasa(rowsTest, columnsTest, pMatrixTest);
+//    printMatrix(rowsTest, columnsTest, pMatrixTest, "kiTest.txt");
 
-    int givenRow;
-    printf("Given Row:");
-    scanf("%i", &givenRow);
-    //check given row-ra, ami letezik
-    if (givenRow >= 0 && givenRow < rows) {
-        printf("The minimum of %i is: %i\n", givenRow, minimumValueOfRow(columns, pMatrix[givenRow]));
-    } else printf(INVALID_INDEX_ERROR_MESSAGE);
 
-    printf("Minimums of rows: ");
-    printArray(rows, rowMinimums(rows, columns, pMatrix), "CON");
-    printf("The global minimum of the matrix is %i\n", minimumValueOfMatrix(rows, columns, pMatrix));
-    printf("The average of all values is %.2f\n", averageOfMatrixElements(rows, columns, pMatrix));
 
-    deallocateMatrix(rows, &pMatrix); //matrix cim szerint
-    if (!pMatrix) { printf("Matrix is NULL"); }
-
-    //TEST
-    printf("\n\n");
-    int rowsTest, columnsTest, **pMatrixTest = NULL;
-    readMatrix(&rowsTest, &columnsTest, &pMatrixTest, "beTest.txt");
-    printMatrix(rowsTest, columnsTest, pMatrixTest, "CON");
-    parosSzamokNullaraAllitasa(rowsTest, columnsTest, pMatrixTest);
-    printMatrix(rowsTest, columnsTest, pMatrixTest, "kiTest.txt");
     return 0;
 }
