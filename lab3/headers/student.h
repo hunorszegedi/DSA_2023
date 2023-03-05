@@ -7,11 +7,17 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <stdbool.h>
+#include <constants.h>
+
 //declaration
 
-enum Gender {MALE, FEMALE, OTHER};
+enum Gender {
+    MALE, FEMALE, OTHER
+};
 
-typedef struct {
+typedef struct Date_t {
     int year;
     int month;
     int day;
@@ -26,13 +32,26 @@ typedef struct Student_t {
     float examResult;
 } Student_t;
 
-void readStudentDetails(Student_t *pStudent);
-
-void readStudentDetailsFrom(Student_t *pStudent, const char *input);
+void readStudentDetailsCON(Student_t *pStudent);
 
 void printStudent(Student_t student);
 
+void readStudentDetails(Student_t *pStudent);
+
 void allocateMemoryForStudents(Student_t **dpStudents, int numberOfStudents);
 
+void readAllStudentsDetails(Student_t **dpStudents, int *pNumberOfStudents, const char *input);
+
+void printAllStudents(Student_t *pStudents, int numberOfStudents, const char *destination);
+
+int getNumberOfStudentsByGender(Student_t *pStudents, int numberOfStudents, enum Gender gender);
+
+void printStudentsFromSpecificCity(Student_t *pStudents, int numberOfStudents, const char *city);
+
+void* findStudentByNeptunCode(Student_t *pStudents, int numberOfStudents, const char* neptunCode);
+
+void sortStudentsByName(Student_t *pStudents, int numberOfStudents);
+
+void sortStudentsByAgeAndExam(Student_t *pStudents, int numberOfStudents);
 
 #endif //LAB3_STUDENT_H
