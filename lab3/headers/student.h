@@ -10,6 +10,7 @@
 #include <string.h>
 #include <stdbool.h>
 #include <constants.h>
+#include "compareFunctions.h"
 
 //declaration
 
