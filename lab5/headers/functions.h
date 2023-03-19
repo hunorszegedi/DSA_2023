@@ -11,6 +11,7 @@
 #include <constants.h>
 #include <string.h>
 #include <ctype.h>
+#include <time.h>
 
 typedef struct Stack{
     int capacity;
@@ -18,6 +19,10 @@ typedef struct Stack{
     int *items;
 }Stack;
 
+/**
+ * print the STACK (not right to do that)
+ * @param stack
+ */
 void printStack(Stack stack);
 
 /**
@@ -71,6 +76,7 @@ int peek(Stack stack);
 * @return
 */
 int size(Stack stack);
+
 
 
 #endif //LAB5_FUNCTIONS_H

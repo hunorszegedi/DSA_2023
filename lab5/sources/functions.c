@@ -15,6 +15,13 @@ void createStack(int capacity, Stack *stack) {
     }
 }
 
+void printStack(Stack stack) {
+    for (int i = 0; i < stack.capacity; ++i) {
+        printf("%i ", stack.items[i]);
+    }
+
+}
+
 bool isFull(Stack stack) {
     return stack.top == stack.capacity - 1;
 }
@@ -24,10 +31,10 @@ bool isEmpty(Stack stack) {
 }
 
 void destroyStack(Stack *stack) {
-    free(stack->items);
     stack->capacity = 0;
-    stack = NULL;
     stack->top = -1;
+    free(stack->items);
+    stack = NULL;
 }
 
 void push(Stack *stack, int item) {
@@ -45,19 +52,14 @@ int pop(Stack *stack) {
         return stack->top;
     }
     int result = stack->items[stack->top];
-    stack->items[stack->top--] == 0;
+    stack->items[stack->top] = 0;
+    stack->top--;
     return result;
 }
 
-void printStack(Stack stack) {
-    for (int i = 0; i < stack.capacity; ++i) {
-        printf("%i ", stack.items[i]);
-    }
-
-}
 
 int peek(Stack stack) {
-    if(isEmpty(stack)){
+    if (isEmpty(stack)) {
         printf(EMPTY_MESSAGE);
         return stack.top;
     }
@@ -66,8 +68,9 @@ int peek(Stack stack) {
 
 int size(Stack stack) {
     int value = 0;
-    for (int i = 0; i < stack.items[stack.top] ; ++i) {
+    for (int i = 0; i < stack.top + 1; ++i) {
         value++;
     }
     return value;
 }
+
