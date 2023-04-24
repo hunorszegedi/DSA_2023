@@ -79,3 +79,16 @@ void display(Queue queue) {
     }
     printf("\n");
 }
+
+void readFromFile(Queue *queue, const char *input) {
+    if (!freopen(input, "r", stdin)) {
+        printf(FILE_OPENING_ERROR_MESSAGE);
+        exit(FILE_OPENING_ERROR_CODE);
+    }
+    char item[CAR_PLATE_NUMBER_LIMIT];
+    while (scanf("%s", item) == 1) {
+        enqueue(queue, item);
+    }
+    freopen("CON", "r", stdin);
+}
+

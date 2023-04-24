@@ -60,4 +60,5 @@ char* dequeue(Queue* queue);
 */
 void display(Queue queue);
 
+void readFromFile(Queue *queue, const char *input);
 #endif //LAB5_REGULAR_QUEUE_FUNCTIONS_H
