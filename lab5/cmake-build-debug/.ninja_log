@@ -1,0 +1,7 @@
+# ninja log v5
+4	124	7008527098603176	CMakeFiles/lab5.dir/main.c.obj	dc2d9ed0efac5a0f
+4	338	7008526839803786	CMakeFiles/lab5.dir/sources/functions.c.obj	e77b99e188327bca
+125	274	7008527100019377	lab5.exe	e6ee51af62a6b03a
+14	216	7008541115212196	CMakeFiles/lab5.dir/main.c.obj	dc2d9ed0efac5a0f
+3	218	7008541115212196	CMakeFiles/lab5.dir/sources/functions.c.obj	e77b99e188327bca
+218	390	7008541116906135	lab5.exe	e6ee51af62a6b03a

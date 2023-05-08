@@ -1,0 +1,22 @@
+3
+1
+Leonardo Mascarpone
+0000001
+Neumarkt
+2002 2 11
+0
+8.99
+2
+George Lucas
+0000002
+Neumarkt
+2004 1 11
+1
+4.59
+3
+Umpalumpa Mascarpone
+0000003
+Brasvo
+2002 2 21
+0
+3.99

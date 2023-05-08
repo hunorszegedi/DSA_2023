@@ -1,0 +1,20 @@
+# ninja log v5
+3	267	7009405182972707	CMakeFiles/lab5_regular_queue.dir/main.c.obj	a847ae09c51c6f23
+11	269	7009405182983011	CMakeFiles/lab5_regular_queue.dir/sources/functions.c.obj	ee1e6151eb32bea6
+271	636	7009405186709946	lab5_regular_queue.exe	3db29c93c06164fe
+3	132	7009405755873300	CMakeFiles/lab5_regular_queue.dir/sources/functions.c.obj	ee1e6151eb32bea6
+133	275	7009405757255787	lab5_regular_queue.exe	3db29c93c06164fe
+3	241	7009407330258593	CMakeFiles/lab5_regular_queue.dir/sources/functions.c.obj	ee1e6151eb32bea6
+242	433	7009407332127132	lab5_regular_queue.exe	3db29c93c06164fe
+4	103	7009408476821219	CMakeFiles/lab5_regular_queue.dir/sources/functions.c.obj	ee1e6151eb32bea6
+105	225	7009408477988846	lab5_regular_queue.exe	3db29c93c06164fe
+2	105	7009408692737864	CMakeFiles/lab5_regular_queue.dir/sources/functions.c.obj	ee1e6151eb32bea6
+106	224	7009408693878708	lab5_regular_queue.exe	3db29c93c06164fe
+6	112	7009547800406709	CMakeFiles/lab5_regular_queue.dir/main.c.obj	a847ae09c51c6f23
+14	118	7009547800477430	CMakeFiles/lab5_regular_queue.dir/sources/functions.c.obj	ee1e6151eb32bea6
+2	91	7009550086736857	CMakeFiles/lab5_regular_queue.dir/main.c.obj	a847ae09c51c6f23
+2	87	7009550324781984	CMakeFiles/lab5_regular_queue.dir/main.c.obj	a847ae09c51c6f23
+2	89	7009551002715855	CMakeFiles/lab5_regular_queue.dir/main.c.obj	a847ae09c51c6f23
+3	101	7009552303005522	CMakeFiles/lab5_regular_queue.dir/main.c.obj	a847ae09c51c6f23
+8	109	7009552303076712	CMakeFiles/lab5_regular_queue.dir/sources/functions.c.obj	ee1e6151eb32bea6
+109	224	7009552304186658	lab5_regular_queue.exe	3db29c93c06164fe

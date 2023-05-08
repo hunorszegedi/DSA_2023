@@ -1,0 +1,36 @@
+	Information:
+Nr: 2
+Name: George Lucas
+Neptun Code: 0000002
+Birth Place: Neumarkt
+Date of Birth:
+	Year: 2004
+	Month: 1
+	Day: 11
+Gender: FEMALE
+Exam Result: 4.59
+
+	Information:
+Nr: 1
+Name: Leonardo Mascarpone
+Neptun Code: 0000001
+Birth Place: Neumarkt
+Date of Birth:
+	Year: 2002
+	Month: 2
+	Day: 11
+Gender: MALE
+Exam Result: 8.99
+
+	Information:
+Nr: 3
+Name: Umpalumpa Mascarpone
+Neptun Code: 0000003
+Birth Place: Brasvo
+Date of Birth:
+	Year: 2002
+	Month: 2
+	Day: 21
+Gender: MALE
+Exam Result: 3.99
+

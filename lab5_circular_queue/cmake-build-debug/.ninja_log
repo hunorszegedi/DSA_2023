@@ -1,0 +1,20 @@
+# ninja log v5
+16	346	7009524631747442	CMakeFiles/lab5_circular_queue.dir/main.c.obj	34abe3dd4a0c6546
+2	364	7009524631958378	CMakeFiles/lab5_circular_queue.dir/sources/circular_queue.c.obj	f07d0bf9e2aa8595
+365	888	7009524637150292	lab5_circular_queue.exe	6d2bb99ee577667e
+3	122	7009525582798205	CMakeFiles/lab5_circular_queue.dir/sources/circular_queue.c.obj	f07d0bf9e2aa8595
+123	252	7009525584048515	lab5_circular_queue.exe	6d2bb99ee577667e
+3	128	7009527023897785	CMakeFiles/lab5_circular_queue.dir/sources/circular_queue.c.obj	f07d0bf9e2aa8595
+129	255	7009527025114292	lab5_circular_queue.exe	6d2bb99ee577667e
+4	133	7009527283024615	CMakeFiles/lab5_circular_queue.dir/sources/circular_queue.c.obj	f07d0bf9e2aa8595
+134	293	7009527284549988	lab5_circular_queue.exe	6d2bb99ee577667e
+3	204	7009528161427103	CMakeFiles/lab5_circular_queue.dir/main.c.obj	34abe3dd4a0c6546
+205	370	7009528163047497	lab5_circular_queue.exe	6d2bb99ee577667e
+3	88	7009528478839581	CMakeFiles/lab5_circular_queue.dir/main.c.obj	34abe3dd4a0c6546
+88	201	7009528479930593	lab5_circular_queue.exe	6d2bb99ee577667e
+3	88	7009528665898874	CMakeFiles/lab5_circular_queue.dir/main.c.obj	34abe3dd4a0c6546
+89	204	7009528667013646	lab5_circular_queue.exe	6d2bb99ee577667e
+2	89	7009528845221870	CMakeFiles/lab5_circular_queue.dir/main.c.obj	34abe3dd4a0c6546
+90	206	7009528846341393	lab5_circular_queue.exe	6d2bb99ee577667e
+3	88	7009529501156109	CMakeFiles/lab5_circular_queue.dir/main.c.obj	34abe3dd4a0c6546
+89	206	7009529502266102	lab5_circular_queue.exe	6d2bb99ee577667e

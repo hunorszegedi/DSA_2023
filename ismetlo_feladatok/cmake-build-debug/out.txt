@@ -1,0 +1,120 @@
+	1. Patient
+Maria Popescu
+2940701123456
+INFLUENZA
+Day: 10 Month: 5 Year: 1974
+
+	2. Patient
+Andrei Ionescu
+1900209123456
+DIABETES
+Day: 20 Month: 9 Year: 1990
+
+	3. Patient
+Ioana Gheorghiu
+2891010123456
+CANCER
+Day: 10 Month: 10 Year: 1989
+
+	4. Patient
+Alexandru Dumitru
+1920512123456
+UNDIFINED
+Day: 12 Month: 5 Year: 1978
+
+	5. Patient
+Ana Radu
+2880328123456
+ASTHMA
+Day: 28 Month: 3 Year: 1982
+
+	6. Patient
+Mihai Vasilescu
+1930214123456
+HEPATITIS
+Day: 14 Month: 2 Year: 1985
+
+	7. Patient
+Elena Tudor
+2900915123456
+DEPRESSION
+Day: 15 Month: 9 Year: 1992
+
+	8. Patient
+Adrian Ion
+1910716123456
+UNDIFINED
+Day: 16 Month: 7 Year: 1969
+
+	9. Patient
+Iulia Popa
+2920201123456
+ANEMIA
+Day: 1 Month: 2 Year: 1986
+
+	10. Patient
+Gabriel Munteanu
+1941112123456
+OBESITY
+Day: 12 Month: 11 Year: 1998
+
+	11. Patient
+Ana-Maria Stoica
+2870313123456
+DIABETES
+Day: 13 Month: 3 Year: 1980
+
+	12. Patient
+Andrei Popescu
+1910824123456
+UNDIFINED
+Day: 24 Month: 8 Year: 1971
+
+	13. Patient
+Maria Marinescu
+2900415123456
+ALLERGIES
+Day: 15 Month: 4 Year: 1991
+
+	14. Patient
+Ioan Gheorghe
+1901217123456
+CANCER
+Day: 17 Month: 12 Year: 1990
+
+	15. Patient
+Andreea Radulescu
+2810301123456
+ASTHMA
+Day: 1 Month: 10 Year: 1981
+
+	16. Patient
+Robert Pop
+1940618123456
+UNDIFINED
+Day: 18 Month: 6 Year: 1994
+
+	17. Patient
+Elena Andrei
+2850319123456
+DEPRESSION
+Day: 19 Month: 3 Year: 1977
+
+	18. Patient
+Catalin Iancu
+1911201123456
+ANEMIA
+Day: 20 Month: 11 Year: 1971
+
+	19. Patient
+Ana-Maria Dinu
+2880815123456
+UNDIFINED
+Day: 15 Month: 8 Year: 1983
+
+	20. Patient
+Andrei Popa
+1950402123456
+OBESITY
+Day: 2 Month: 4 Year: 1995
+
