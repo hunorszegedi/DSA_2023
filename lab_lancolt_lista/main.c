@@ -78,6 +78,7 @@ int main() {
     //kiiratas
     //felszabaditas
     //
+    //
     int n;
     printf("Number:");
     scanf("%i", &n);
