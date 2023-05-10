@@ -11,14 +11,8 @@
 #include "binary_tree.h"
 
 
-//create a node
-Node *createNewNode(int newData);
-
 //insert a node
 Node *insert(Node *node, int key);
-
-//inorder traversal
-//void inorderTraversal(Node *root);
 
 //find the min number
 Node *minValueNode(Node *node);

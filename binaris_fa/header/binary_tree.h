@@ -25,5 +25,6 @@ void preorderTraversal(Node *root);
 void inorderTraversal(Node *root);
 //postorder traversal
 void postorderTraversal(Node *root);
-
+//destroy binary tree
+void destroyBinaryTree(Node **root);
 #endif //BINARIS_FA_BINARY_TREE_H

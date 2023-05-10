@@ -48,3 +48,19 @@ void postorderTraversal(Node *root) {
     postorderTraversal(root->right);
     printf("%i ", root->info);
 }
+
+void destroyBinaryTree(Node **root) {
+    if (*root == NULL) {
+        return;
+    }
+    if ((*root)->right == NULL && (*root)->left == NULL) {
+        free(*root);
+        *root = NULL;
+    } else {
+        destroyBinaryTree(&(*root)->right);
+        destroyBinaryTree(&(*root)->left);
+        free(*root);
+        *root = NULL;
+    }
+}
+
