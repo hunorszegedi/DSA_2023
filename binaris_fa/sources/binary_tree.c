@@ -3,7 +3,6 @@
 //
 
 #include "binary_tree.h"
-#include "bst.h"
 
 
 Node *createNewNode(int newData) {
