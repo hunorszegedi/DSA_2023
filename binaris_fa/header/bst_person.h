@@ -51,15 +51,15 @@ void postorderTraversalPerson(NodePerson *root);
 void destroyBinaryTreePerson(NodePerson **root);
 
 //insert a node
-NodePerson *insert(NodePerson *node, Information key);
+NodePerson *insertPerson(NodePerson *node, Information key);
 
 //find the min number
-NodePerson *minValueNode(NodePerson *node);
+NodePerson *minValueNodePerson(NodePerson *node);
 
 //find the max number
-NodePerson *maxValueNode(NodePerson *node);
+NodePerson *maxValueNodePerson(NodePerson *node);
 
 //deleting a node
-NodePerson *deleteNode(NodePerson *root, Information key);
+NodePerson *deleteNodePerson(NodePerson *root, Information key);
 
 #endif //BINARIS_FA_BST_PERSON_H
