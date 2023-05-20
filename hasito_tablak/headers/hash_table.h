@@ -10,14 +10,18 @@
 #include <stdbool.h>
 #include <constants.h>
 
+// globaliskent felveszunk itt egy makrot
+// tanacsos primszamot megadni kapacitasnak
 #define CAPACITY 31 //globalis kapacitas per pill
 
-typedef struct {
+//kulcs es data sem muszaj int legyen
+typedef struct HashItem {
     int key;
     int data;
 } HashItem;
 
-typedef struct {
+//hash itemokbol allo tomb
+typedef struct HashTable{
     HashItem *items;
     int size; //ennyi darab hely foglalt mar
 } HashTable;
@@ -28,7 +32,6 @@ static HashItem dummyData = {-1, 0}; //ures adat
 
 //hash fuggveny
 //nem lehet ket ugyanolyan kulcs, egyedi kell legyen
-
 
 /**
 * Allocates memory for a hash table with defined SIZE
