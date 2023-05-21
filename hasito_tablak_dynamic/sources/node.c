@@ -50,7 +50,7 @@ void deleteNode(Node **head_ref, char *key) {
     }
     Node *temp = (*head_ref)->next;
     Node *prev = (*head_ref);
-    while (temp != NULL && strcmp(temp->data.key, key) == 0) {
+    while (temp != NULL && strcmp(temp->data.key, key) != 0) {
         prev = temp;
         temp = temp->next;
     }
@@ -79,7 +79,7 @@ void printList(Node *node) {
         printNodeData(temp->data);
         temp = temp->next;
     }
-    printf("NULL\n");
+//    printf("NULL\n");
 }
 
 void freeList(Node **head) {

@@ -1,0 +1,7 @@
+apple red
+banana yellow
+cat meow
+dog woof
+strawberry red
+elephant trumpet
+flower bloosom
